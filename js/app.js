@@ -113,25 +113,27 @@ function renderHome() {
     });
   }
 
-  // Latest rule
-  const activeRules = (data.rules || []).filter(r => !r.archived);
-  if (activeRules.length > 0) {
-    const latest = activeRules[activeRules.length - 1];
+  // New rules (only those flagged as isNew)
+  const newRules = (data.rules || []).filter(r => !r.archived && r.isNew);
+  if (newRules.length > 0) {
     html += `
       <div class="section-header">
         ${icon('sparkles', 'section-icon')}
         <h3>Neue Regeln</h3>
         <a class="see-all" onclick="navigateTo('rules')">Alle Regeln</a>
-      </div>
-      <div class="card" onclick="showDetail('rule', ${latest.id})">
-        <div class="card-title">${escapeHtml(latest.title)}</div>
-        <div class="card-subtitle">${escapeHtml(latest.subtitle)}</div>
+      </div>`;
+    newRules.forEach(rule => {
+      html += `
+      <div class="card" onclick="showDetail('rule', ${rule.id})">
+        <div class="card-title">${escapeHtml(rule.title)}</div>
+        <div class="card-subtitle">${escapeHtml(rule.subtitle)}</div>
         <div class="card-meta">
           ${icon('calendar')}
-          <span>Gültig ab ${formatDate(latest.date)}</span>
+          <span>Gültig ab ${formatDate(rule.date)}</span>
           <span class="card-arrow">${icon('chevronRight')}</span>
         </div>
       </div>`;
+    });
   }
 
   // Next event

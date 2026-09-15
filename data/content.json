@@ -13,7 +13,8 @@
           "type": "link"
         }
       ],
-      "archived": false
+      "archived": false,
+      "isNew": true
     }
   ],
   "events": [

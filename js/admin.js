@@ -131,7 +131,7 @@ function renderRules() {
     <div class="admin-list-item">
       <div class="item-info">
         <div class="item-title">${escapeHtml(r.title)}</div>
-        <div class="item-meta">${formatDate(r.date)} ${r.archived ? '<span class="badge badge-warning">Archiviert</span>' : ''}</div>
+        <div class="item-meta">${formatDate(r.date)} ${r.isNew ? '<span class="badge badge-info">Neue Regel</span> ' : ''}${r.archived ? '<span class="badge badge-warning">Archiviert</span>' : ''}</div>
       </div>
       <div class="item-actions">
         <button class="btn btn-secondary btn-sm" onclick="editRule(${r.id})">Bearbeiten</button>
@@ -161,6 +161,10 @@ function showRuleForm(rule) {
       <div class="form-group">
         <label>Gültig ab</label>
         <input type="date" id="rule-date" value="${rule?.date || new Date().toISOString().split('T')[0]}">
+      </div>
+      <div class="form-group" style="display:flex;align-items:center;gap:8px">
+        <input type="checkbox" id="rule-isNew" ${rule?.isNew ? 'checked' : ''} style="width:auto;margin:0">
+        <label for="rule-isNew" style="margin:0;text-transform:none;font-size:0.88rem;color:var(--text)">Auf Startseite als „Neue Regel" anzeigen</label>
       </div>
       <div class="form-group">
         <label>Inhalt (HTML)</label>
@@ -236,6 +240,7 @@ function saveRule(id) {
   const subtitle = document.getElementById('rule-subtitle').value.trim();
   const date = document.getElementById('rule-date').value;
   const content = document.getElementById('rule-content').value;
+  const isNew = document.getElementById('rule-isNew').checked;
 
   if (!title) { showToast('Bitte Titel eingeben'); return; }
 
@@ -247,13 +252,15 @@ function saveRule(id) {
       rule.date = date;
       rule.content = content;
       rule.documents = ruleAttachments;
+      rule.isNew = isNew;
     }
   } else {
     data.rules.push({
       id: nextId(data.rules),
       title, subtitle, date, content,
       documents: ruleAttachments,
-      archived: false
+      archived: false,
+      isNew: isNew
     });
   }
   saveData();
