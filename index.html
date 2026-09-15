@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1a3a6b">
+  <title>MTV Riede – Schiedsrichter</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <img src="assets/logo.png" alt="MTV Riede" class="logo">
+    <div class="header-text">
+      <h1>MTV Riede</h1>
+      <span>Schiedsrichter</span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Home -->
+    <section id="page-home" class="page-section">
+      <div class="welcome">
+        <h2>Hallo Schiedsrichter!</h2>
+        <p>Hier findest du alle wichtigen Informationen, Regeln, Termine, Dokumente und Anleitungen rund um deine Tätigkeit für den MTV Riede.</p>
+      </div>
+      <div id="home-content"></div>
+    </section>
+
+    <!-- Rules -->
+    <section id="page-rules" class="page-section">
+      <h2 class="page-title">Neue Regeln</h2>
+      <div id="rules-content"></div>
+    </section>
+
+    <!-- Events -->
+    <section id="page-events" class="page-section">
+      <h2 class="page-title">Termine</h2>
+      <div id="events-content"></div>
+    </section>
+
+    <!-- Documents -->
+    <section id="page-documents" class="page-section">
+      <h2 class="page-title">Dokumente</h2>
+      <div id="documents-content"></div>
+    </section>
+
+    <!-- Guides -->
+    <section id="page-guides" class="page-section">
+      <h2 class="page-title">Anleitungen</h2>
+      <div id="guides-content"></div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="page-quiz" class="page-section">
+      <div id="quiz-content"></div>
+    </section>
+
+    <!-- Detail View -->
+    <section id="page-detail" class="page-section">
+      <div id="detail-content"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <a href="impressum.html">Impressum</a>
+    <span>&middot;</span>
+    <a href="datenschutz.html">Datenschutz</a>
+  </footer>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-page="home">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+      <span>Start</span>
+    </button>
+    <button class="nav-item" data-page="rules">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></svg>
+      <span>Regeln</span>
+    </button>
+    <button class="nav-item" data-page="quiz">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+      <span>Regeltest</span>
+    </button>
+    <button class="nav-item" data-page="documents">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+      <span>Dokumente</span>
+    </button>
+    <button class="nav-item" data-page="guides">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+      <span>Anleitungen</span>
+    </button>
+  </nav>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="js/filestore.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

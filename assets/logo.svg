@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <defs>
+    <clipPath id="shieldClip">
+      <path d="M100 5 C60 5 25 15 20 20 L20 120 C20 170 100 215 100 215 C100 215 180 170 180 120 L180 20 C175 15 140 5 100 5Z"/>
+    </clipPath>
+  </defs>
+  <!-- Shield background -->
+  <path d="M100 5 C60 5 25 15 20 20 L20 120 C20 170 100 215 100 215 C100 215 180 170 180 120 L180 20 C175 15 140 5 100 5Z" fill="#1a3a6b" stroke="#1a3a6b" stroke-width="2"/>
+  <!-- White diagonal stripe -->
+  <path d="M65 5 L115 215 L135 215 L85 5 Z" fill="white" clip-path="url(#shieldClip)" opacity="0.9"/>
+  <!-- Light blue diagonal stripe -->
+  <path d="M85 5 L135 215 L155 215 L105 5 Z" fill="#5b8abf" clip-path="url(#shieldClip)" opacity="0.6"/>
+  <!-- MTV text -->
+  <text x="100" y="80" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-weight="bold" font-size="42" fill="white" letter-spacing="2">MTV</text>
+  <!-- RIEDE text -->
+  <text x="100" y="135" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="30" fill="white" letter-spacing="4">RIEDE</text>
+  <!-- 1910 text -->
+  <text x="100" y="175" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="20" fill="white" letter-spacing="2">1910</text>
+</svg>

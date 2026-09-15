@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>MTV Riede – Verwaltung</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="admin-body">
+
+  <!-- Login Screen -->
+  <div class="login-screen" id="login-screen">
+    <div class="login-card">
+      <img src="assets/logo.png" alt="MTV Riede" class="login-logo">
+      <h1>MTV Riede</h1>
+      <p class="login-subtitle">Schiedsrichter-Verwaltung</p>
+      <div class="login-error" id="login-error">Benutzername oder Passwort falsch.</div>
+      <form id="login-form" autocomplete="off">
+        <div class="form-group">
+          <label>Benutzername</label>
+          <input type="text" id="login-user" autocomplete="username" required>
+        </div>
+        <div class="form-group">
+          <label>Passwort</label>
+          <input type="password" id="login-pass" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Anmelden</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Admin App (hidden until login) -->
+  <div class="admin-app" id="admin-app">
+
+    <!-- Admin Header -->
+    <header class="admin-header">
+      <h1>Verwaltung</h1>
+      <div style="display:flex;gap:12px;align-items:center">
+        <a href="index.html" class="admin-link">Zur Webseite</a>
+        <button class="btn btn-sm" id="export-data" style="font-size:0.72rem;background:#16a34a;color:#fff;border:none">Exportieren</button>
+        <button class="btn btn-danger btn-sm" id="reset-data" style="font-size:0.72rem">Zurücksetzen</button>
+        <button class="btn btn-secondary btn-sm" id="logout-btn" style="font-size:0.72rem;color:#fff;border-color:rgba(255,255,255,0.3)">Abmelden</button>
+      </div>
+    </header>
+
+    <div class="admin-container">
+
+      <!-- Tabs -->
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="rules">Regeln</button>
+        <button class="admin-tab" data-tab="events">Termine</button>
+        <button class="admin-tab" data-tab="documents">Dokumente</button>
+        <button class="admin-tab" data-tab="guides">Anleitungen</button>
+        <button class="admin-tab" data-tab="announcements">Meldungen</button>
+        <button class="admin-tab" data-tab="quiz">Regeltest</button>
+      </div>
+
+      <!-- Rules Section -->
+      <div class="admin-section active" id="section-rules">
+        <div class="admin-toolbar">
+          <h2>Regeln</h2>
+          <button class="btn btn-primary" id="add-rule">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neue Regel
+          </button>
+        </div>
+        <div id="rules-list"></div>
+      </div>
+
+      <!-- Events Section -->
+      <div class="admin-section" id="section-events">
+        <div class="admin-toolbar">
+          <h2>Termine</h2>
+          <button class="btn btn-primary" id="add-event">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neuer Termin
+          </button>
+        </div>
+        <div id="events-list"></div>
+      </div>
+
+      <!-- Documents Section -->
+      <div class="admin-section" id="section-documents">
+        <div class="admin-toolbar">
+          <h2>Dokumente</h2>
+          <button class="btn btn-primary" id="add-document">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neues Dokument
+          </button>
+        </div>
+        <div id="documents-list"></div>
+      </div>
+
+      <!-- Guides Section -->
+      <div class="admin-section" id="section-guides">
+        <div class="admin-toolbar">
+          <h2>Anleitungen</h2>
+          <button class="btn btn-primary" id="add-guide">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neue Anleitung
+          </button>
+        </div>
+        <div id="guides-list"></div>
+      </div>
+
+      <!-- Announcements Section -->
+      <div class="admin-section" id="section-announcements">
+        <div class="admin-toolbar">
+          <h2>Meldungen</h2>
+          <button class="btn btn-primary" id="add-announcement">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neue Meldung
+          </button>
+        </div>
+        <div id="announcements-list"></div>
+      </div>
+
+      <!-- Quiz Section -->
+      <div class="admin-section" id="section-quiz">
+        <div class="admin-toolbar">
+          <h2>Regeltest-Fragen</h2>
+          <button class="btn btn-primary" id="add-quiz">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Neue Frage
+          </button>
+        </div>
+        <div id="quiz-list"></div>
+      </div>
+
+    </div>
+
+    <!-- Form Overlay -->
+    <div class="form-overlay" id="form-overlay"></div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast"></div>
+
+  </div>
+
+  <script src="js/filestore.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

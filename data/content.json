@@ -1,0 +1,203 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "title": "Regeländerungen 2026/27",
+      "subtitle": "Die wichtigsten Änderungen zur neuen Saison",
+      "date": "2026-07-01",
+      "content": "<p>Hier werden die wichtigsten Regeländerungen zur Saison 2026/27 zusammengefasst.</p><h3>Änderung 1 – Handspiel</h3><p>Präzisierung der Handspielregel: Ein Handspiel liegt vor, wenn...</p><h3>Änderung 2 – Abseits</h3><p>Anpassung der Abseitsregel bei Rückpässen...</p><h3>Änderung 3 – Zeitspiel</h3><p>Neue Richtlinien zur Nachspielzeit...</p>",
+      "documents": [
+        { "name": "DFB Regeländerungen 2026/27 (PDF)", "url": "#" }
+      ],
+      "archived": false
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Lehrabend",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "location": "Vereinsheim MTV Riede",
+      "description": "Monatlicher Lehrabend für alle Schiedsrichter",
+      "contact": ""
+    },
+    {
+      "id": 2,
+      "title": "Schiedsrichtersitzung",
+      "date": "2026-10-10",
+      "time": "18:30",
+      "location": "Vereinsheim MTV Riede",
+      "description": "Allgemeine Sitzung",
+      "contact": ""
+    },
+    {
+      "id": 3,
+      "title": "Regelabend",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "location": "Vereinsheim MTV Riede",
+      "description": "Schwerpunkt: Neue Regeländerungen",
+      "contact": ""
+    }
+  ],
+  "documents": {
+    "categories": [
+      {
+        "id": "regelwerk",
+        "name": "Regelwerk",
+        "icon": "book",
+        "items": [
+          { "id": 1, "title": "Fußballregeln 2026/27", "filename": "fussballregeln_2026_27.pdf", "url": "#" },
+          { "id": 2, "title": "Regeländerungen 2026/27", "filename": "regelaenderungen_2026_27.pdf", "url": "#" },
+          { "id": 3, "title": "DFB-Anweisungen", "filename": "dfb_anweisungen.pdf", "url": "#" }
+        ]
+      },
+      {
+        "id": "verein",
+        "name": "Verein",
+        "icon": "building",
+        "items": [
+          { "id": 4, "title": "Informationen zu Heimspielen", "filename": "heimspiele_info.pdf", "url": "#" },
+          { "id": 5, "title": "Ansprechpartner", "filename": "ansprechpartner.pdf", "url": "#" },
+          { "id": 6, "title": "Platzordnung", "filename": "platzordnung.pdf", "url": "#" }
+        ]
+      },
+      {
+        "id": "spesen",
+        "name": "Spesen",
+        "icon": "receipt",
+        "items": [
+          { "id": 7, "title": "Spesenordnung", "filename": "spesenordnung.pdf", "url": "#" },
+          { "id": 8, "title": "Spesenabrechnung", "filename": "spesenabrechnung.pdf", "url": "#" },
+          { "id": 9, "title": "Fahrtkosten", "filename": "fahrtkosten.pdf", "url": "#" }
+        ]
+      },
+      {
+        "id": "formulare",
+        "name": "Formulare",
+        "icon": "clipboard",
+        "items": [
+          { "id": 10, "title": "Spielbericht", "filename": "spielbericht.pdf", "url": "#" },
+          { "id": 11, "title": "Abrechnungsformular", "filename": "abrechnungsformular.pdf", "url": "#" }
+        ]
+      },
+      {
+        "id": "lehrmaterial",
+        "name": "Lehrmaterial",
+        "icon": "graduation-cap",
+        "items": [
+          { "id": 12, "title": "Präsentationen", "filename": "praesentationen.pdf", "url": "#" },
+          { "id": 13, "title": "Regeltests", "filename": "regeltests.pdf", "url": "#" }
+        ]
+      }
+    ]
+  },
+  "guides": [
+    {
+      "id": 1,
+      "title": "Spielrückgabe",
+      "icon": "rotate-left",
+      "summary": "Was ist bei einer Spielrückgabe zu beachten?",
+      "content": "<h3>1. Verein informieren</h3><p>Informiere zunächst den Staffelleiter deines Vereins über die Rückgabe des Spiels. Nenne den Grund (z.B. Krankheit, berufliche Verpflichtung).</p><h3>2. Staffelleitung kontaktieren</h3><p>Setze dich mit der zuständigen Staffelleitung in Verbindung und teile die Rückgabe offiziell mit.</p><h3>3. Spiel im System bearbeiten</h3><p>Gehe in DFBnet/SpielPlus und gib das Spiel dort offiziell zurück. Folge den Anweisungen im System.</p><h3>4. Dokumentation</h3><p>Halte den Vorgang schriftlich fest und bewahre die Bestätigung auf.</p><div class='guide-notice'><strong>Wichtig:</strong> Rückgaben sollten so früh wie möglich erfolgen, damit ein Ersatz gefunden werden kann.</div>"
+    },
+    {
+      "id": 2,
+      "title": "Spielbericht ausfüllen",
+      "icon": "file-pen",
+      "summary": "Anleitung zum korrekten Ausfüllen des Spielberichts",
+      "content": "<h3>1. Vor dem Spiel</h3><p>Öffne den Spielbericht in DFBnet/SpielPlus spätestens 30 Minuten vor Spielbeginn. Überprüfe die Mannschaftsaufstellungen.</p><h3>2. Spielerdaten prüfen</h3><p>Kontrolliere die Spielerpässe und gleiche sie mit dem Spielbericht ab. Achte auf Sperren und Verwarnungen.</p><h3>3. Während des Spiels</h3><p>Notiere alle relevanten Ereignisse: Tore, Verwarnungen, Platzverweise, Auswechslungen mit genauer Spielminute.</p><h3>4. Nach dem Spiel</h3><p>Vervollständige den Spielbericht. Trage das Endergebnis, besondere Vorkommnisse und die Zuschauerzahl ein. Schließe den Bericht innerhalb der vorgegebenen Frist ab.</p>"
+    },
+    {
+      "id": 3,
+      "title": "Spesen abrechnen",
+      "icon": "coins",
+      "summary": "So reichst du deine Spesen richtig ein",
+      "content": "<h3>1. Abrechnungsformular</h3><p>Lade das aktuelle Abrechnungsformular aus dem Dokumentenbereich herunter oder nutze das Online-Formular.</p><h3>2. Daten eintragen</h3><p>Trage Spielnummer, Datum, Spielort, gefahrene Kilometer und weitere Auslagen ein.</p><h3>3. Belege sammeln</h3><p>Bewahre alle Belege (Tankquittungen, Parktickets etc.) auf und füge sie der Abrechnung bei.</p><h3>4. Einreichen</h3><p>Reiche die Abrechnung beim zuständigen Ansprechpartner ein. Beachte die Einreichungsfrist.</p><div class='guide-notice'><strong>Hinweis:</strong> Die aktuellen Spesenbeträge findest du in der Spesenordnung unter Dokumente.</div>"
+    },
+    {
+      "id": 4,
+      "title": "Verhalten bei Heimspielen",
+      "icon": "house",
+      "summary": "Was du als Schiedsrichter bei Heimspielen beachten musst",
+      "content": "<h3>1. Ankunft</h3><p>Sei spätestens 45 Minuten vor Spielbeginn am Sportplatz. Melde dich beim Platzwart oder Vereinsvertreter.</p><h3>2. Kabine</h3><p>Die Schiedsrichterkabine sollte spätestens 30 Minuten vor Spielbeginn zugänglich sein.</p><h3>3. Platzbegehung</h3><p>Führe vor dem Spiel eine Platzbegehung durch. Prüfe Tore, Netze, Spielfeldmarkierungen und Eckfahnen.</p><h3>4. Nach dem Spiel</h3><p>Hinterlasse die Kabine sauber und melde dich beim Vereinsvertreter ab.</p>"
+    },
+    {
+      "id": 5,
+      "title": "DFBnet / SpielPlus",
+      "icon": "laptop",
+      "summary": "Anleitung zur Nutzung von DFBnet und SpielPlus",
+      "content": "<h3>1. Anmeldung</h3><p>Melde dich unter <strong>spielplus.dfbnet.org</strong> mit deinen Zugangsdaten an.</p><h3>2. Spielansetzungen</h3><p>Unter 'Meine Spiele' findest du alle dir zugeteilten Ansetzungen.</p><h3>3. Spielbericht</h3><p>Der Spielbericht kann online ausgefüllt und abgeschlossen werden.</p><h3>4. Spielrückgabe</h3><p>Falls du ein Spiel zurückgeben musst, nutze die entsprechende Funktion in SpielPlus und informiere zusätzlich die Ansetzung.</p>"
+    }
+  ],
+  "quiz": [
+    { "id": 1, "q": "Bei einem Angriff spielt ein Abwehrspieler den Ball absichtlich mit dem Fuß zu seinem Torwart zurück. Der Torwart nimmt den Ball mit den Händen auf. Wie entscheidet der Schiedsrichter?", "options": ["Weiterspielen, der Torwart darf das", "Indirekter Freistoß am Ort der Handberührung", "Direkter Freistoß für die angreifende Mannschaft"], "answer": 1 },
+    { "id": 2, "q": "Ein Stürmer befindet sich bei der Ballabgabe seines Mitspielers in Abseitsstellung. Er läuft jedoch nicht zum Ball und greift auch nicht ins Spiel ein. Ein anderer Mitspieler, der nicht im Abseits stand, nimmt den Ball auf. Entscheidung?", "options": ["Weiterspielen, kein Vergehen", "Indirekter Freistoß wegen Abseits", "Schiedsrichterball"], "answer": 0 },
+    { "id": 3, "q": "Beim Elfmeter schießt der Schütze den Ball nach vorne gegen die Latte. Der Ball prallt zurück und der Schütze schießt ihn ins Tor. Entscheidung?", "options": ["Tor, Anstoß", "Kein Tor, indirekter Freistoß für die verteidigende Mannschaft", "Elfmeter wird wiederholt"], "answer": 1 },
+    { "id": 4, "q": "Ein Spieler führt einen Einwurf aus, wirft den Ball aber direkt ins gegnerische Tor, ohne dass ein anderer Spieler den Ball berührt. Entscheidung?", "options": ["Tor, Anstoß", "Abstoß für die verteidigende Mannschaft", "Einwurf wiederholen"], "answer": 1 },
+    { "id": 5, "q": "Ein Angreifer wird im Strafraum von einem Verteidiger durch ein Beinstellen zu Fall gebracht. Der Angreifer hatte eine klare Torchance. Wie entscheidet der Schiedsrichter?", "options": ["Strafstoß und Gelbe Karte für den Verteidiger", "Strafstoß und Rote Karte für den Verteidiger", "Strafstoß und Verwarnung nur bei wiederholtem Vergehen"], "answer": 0 },
+    { "id": 6, "q": "Bei einem Freistoß stellt sich ein Spieler der angreifenden Mannschaft in die Mauer der verteidigenden Mannschaft (weniger als 1 m Abstand zur Mauer). Der Schiedsrichter hatte noch nicht gepfiffen. Entscheidung?", "options": ["Weiterspielen, das ist erlaubt", "Indirekter Freistoß gegen die angreifende Mannschaft", "Der angreifende Spieler muss mindestens 1 m Abstand zur Mauer halten"], "answer": 2 },
+    { "id": 7, "q": "Ein Torwart hält den Ball nach einer Parade länger als 6 Sekunden in den Händen. Entscheidung?", "options": ["Indirekter Freistoß am Ort des Vergehens", "Direkter Freistoß", "Verwarnung und Weiterspielen"], "answer": 0 },
+    { "id": 8, "q": "Ein Spieler tritt einen Gegner absichtlich, ohne den Ball spielen zu wollen. Der Ball war nicht in Spielnähe. Entscheidung?", "options": ["Direkter Freistoß und Gelbe Karte", "Direkter Freistoß und Rote Karte wegen rohen Spiels", "Indirekter Freistoß und Verwarnung"], "answer": 1 },
+    { "id": 9, "q": "Beim Anstoß zu Spielbeginn schießt ein Spieler den Ball direkt ins gegnerische Tor. Der Ball hat sich dabei nach vorne bewegt. Entscheidung?", "options": ["Tor, Anstoß für die andere Mannschaft", "Kein Tor, Abstoß", "Anstoß wiederholen"], "answer": 0 },
+    { "id": 10, "q": "Ein Verteidiger steht außerhalb des Spielfeldes hinter der eigenen Torlinie. Ein Angreifer befindet sich zwischen dem Torwart und der Torlinie. Es gibt keinen weiteren Verteidiger. Ist der Angreifer im Abseits?", "options": ["Ja, der Verteidiger außerhalb zählt nicht", "Nein, der Verteidiger hinter der Torlinie zählt als vorletzter Gegenspieler", "Nein, der Torwart zählt als vorletzter Gegenspieler"], "answer": 1 },
+    { "id": 11, "q": "Ein Spieler wird wegen wiederholten Foulspiels verwarnt (Gelbe Karte). Wenig später reklamiert er lautstark gegen eine Entscheidung. Entscheidung?", "options": ["Nochmalige Verwarnung und Weiterspielen", "Gelb-Rote Karte, Feldverweis auf Dauer", "Nur mündliche Ermahnung"], "answer": 1 },
+    { "id": 12, "q": "Beim Abstoß spielt der Torwart den Ball kurz zu einem Mitspieler im eigenen Strafraum. Ein Angreifer stand dabei im Strafraum. Entscheidung?", "options": ["Abstoß wiederholen, der Angreifer muss den Strafraum verlassen", "Weiterspielen, seit 2019 muss der Ball den Strafraum beim Abstoß nicht mehr verlassen", "Indirekter Freistoß für die angreifende Mannschaft"], "answer": 1 },
+    { "id": 13, "q": "Ein Auswechselspieler betritt ohne Erlaubnis des Schiedsrichters das Spielfeld und spielt den Ball. Entscheidung?", "options": ["Weiterspielen und nach der nächsten Unterbrechung verwarnen", "Spielunterbrechung, Verwarnung, Schiedsrichterball", "Spielunterbrechung, direkter Freistoß und Verwarnung"], "answer": 2 },
+    { "id": 14, "q": "Der Ball trifft den Arm eines Verteidigers im Strafraum. Der Arm war eng am Körper angelegt und die Berührung war unvermeidbar. Entscheidung?", "options": ["Strafstoß, jede Handberührung im Strafraum ist strafbar", "Weiterspielen, kein strafbares Handspiel", "Indirekter Freistoß"], "answer": 1 },
+    { "id": 15, "q": "Ein Spieler führt den Eckstoß aus. Der Ball verlässt den Viertelkreis, wird vom Wind zurückgetragen und geht direkt ins Tor des ausführenden Spielers. Entscheidung?", "options": ["Tor für die gegnerische Mannschaft", "Eckstoß für die gegnerische Mannschaft", "Eckstoß wiederholen"], "answer": 1 },
+    { "id": 16, "q": "Während einer Spielunterbrechung beleidigt ein Spieler den Schiedsrichter. Entscheidung?", "options": ["Gelbe Karte wegen unsportlichen Betragens", "Rote Karte wegen beleidigender Äußerungen", "Ermahnung, da das Spiel unterbrochen war"], "answer": 1 },
+    { "id": 17, "q": "Der Torwart wirft den Ball ab, lässt ihn aber aus der Hand fallen. Bevor ein anderer Spieler den Ball berührt, nimmt der Torwart ihn wieder mit den Händen auf. Entscheidung?", "options": ["Weiterspielen, der Ball war noch nicht im Spiel", "Indirekter Freistoß wegen Doppelberührung", "Indirekter Freistoß, da der Torwart den Ball nicht erneut aufnehmen darf"], "answer": 2 },
+    { "id": 18, "q": "Ein Spieler hebt den Ball mit dem Fuß an und köpft ihn seinem Torwart zu. Der Torwart fängt den Ball. Entscheidung?", "options": ["Weiterspielen, der Ball wurde geköpft", "Indirekter Freistoß, da dies eine Umgehung der Rückpassregel ist", "Direkter Freistoß"], "answer": 1 },
+    { "id": 19, "q": "Bei einem Konter sprintet ein Stürmer allein auf den Torwart zu. Ein Verteidiger hält ihn außerhalb des Strafraums am Trikot fest und verhindert so die klare Torchance. Entscheidung?", "options": ["Direkter Freistoß und Gelbe Karte", "Direkter Freistoß und Rote Karte", "Direkter Freistoß und Gelb-Rote Karte"], "answer": 1 },
+    { "id": 20, "q": "Nach einem Tor jubelt der Torschütze, indem er sein Trikot auszieht. Entscheidung?", "options": ["Ermahnung, kein Vergehen", "Verwarnung (Gelbe Karte) wegen unsportlichen Betragens", "Nur bei wiederholtem Vergehen verwarnen"], "answer": 1 },
+    { "id": 21, "q": "Ein Spieler, der nicht am Spielgeschehen beteiligt ist, steht neben dem Spielfeld und brüllt laut, um einen Gegenspieler zu irritieren, der gerade den Ball annimmt. Entscheidung?", "options": ["Weiterspielen, das ist normales Spielgeschehen", "Indirekter Freistoß und Verwarnung wegen unsportlichen Betragens", "Direkter Freistoß"], "answer": 1 },
+    { "id": 22, "q": "Beim Strafstoß läuft der Torwart vor dem Schuss deutlich von der Torlinie nach vorne. Der Schütze schießt, der Torwart hält den Ball. Entscheidung?", "options": ["Abstoß, der Torwart hat regelkonform gehalten", "Strafstoß wiederholen und Verwarnung für den Torwart", "Strafstoß wiederholen ohne Verwarnung"], "answer": 1 },
+    { "id": 23, "q": "Ein verletzter Spieler wird außerhalb des Feldes behandelt. Er betritt das Spielfeld wieder, ohne die Erlaubnis des Schiedsrichters abzuwarten. Entscheidung?", "options": ["Verwarnung wegen unerlaubten Betretens des Spielfeldes", "Spielunterbrechung und Schiedsrichterball", "Weiterspielen, der Spieler gehört zur Mannschaft"], "answer": 0 },
+    { "id": 24, "q": "Der Schiedsrichter gibt einen indirekten Freistoß im Strafraum. Der Ball wird direkt ins Tor geschossen, ohne dass ein weiterer Spieler den Ball berührt. Entscheidung?", "options": ["Tor", "Abstoß", "Freistoß wiederholen"], "answer": 1 },
+    { "id": 25, "q": "Ein Spieler spielt den Ball mit der Sohle zu einem Mitspieler. Die Sohle trifft dabei einen Gegenspieler am Schienbein – rücksichtslos, aber ohne übermäßige Härte. Entscheidung?", "options": ["Weiterspielen, normaler Zweikampf", "Direkter Freistoß und Verwarnung wegen rücksichtslosen Spiels", "Direkter Freistoß und Rote Karte"], "answer": 1 },
+    { "id": 26, "q": "Ein Spieler steht bei der Ballabgabe auf gleicher Höhe mit dem vorletzten Gegenspieler. Entscheidung?", "options": ["Abseits, gleiche Höhe gilt als Abseits", "Kein Abseits, gleiche Höhe ist kein Abseits", "Der Schiedsrichter-Assistent entscheidet nach Ermessen"], "answer": 1 },
+    { "id": 27, "q": "Ein Verteidiger klärt den Ball mit einem hohen Schuss. Der Ball trifft den Arm eines Angreifers. Direkt danach schießt dieser Angreifer ein Tor. Entscheidung?", "options": ["Tor, da das Handspiel nicht absichtlich war", "Kein Tor, direkter Freistoß – ein Tor nach Handberührung zählt grundsätzlich nicht", "Kein Tor, indirekter Freistoß"], "answer": 1 },
+    { "id": 28, "q": "Wie viele Spieler einer Mannschaft müssen mindestens auf dem Spielfeld sein, damit das Spiel begonnen bzw. fortgesetzt werden kann?", "options": ["6 Spieler", "7 Spieler", "8 Spieler"], "answer": 1 },
+    { "id": 29, "q": "Der Torwart steht im eigenen Strafraum und wirft den Ball einem Mitspieler zu. Der Ball wird vom Wind erfasst und geht direkt ins eigene Tor, ohne dass jemand den Ball berührt hat. Entscheidung?", "options": ["Tor für die gegnerische Mannschaft", "Kein Tor, Abstoß", "Kein Tor, Eckstoß für die gegnerische Mannschaft"], "answer": 2 },
+    { "id": 30, "q": "Ein Spieler nimmt am Spielfeldrand eine Trinkflasche und wirft sie auf einen Gegenspieler auf dem Spielfeld. Der Ball ist im Spiel. Entscheidung?", "options": ["Direkter Freistoß und Verwarnung", "Direkter Freistoß bzw. Strafstoß und Rote Karte wegen Tätlichkeit", "Indirekter Freistoß und Gelbe Karte"], "answer": 1 },
+    { "id": 31, "q": "Ein Spieler führt einen Freistoß schnell aus, obwohl der Schiedsrichter die Mauer noch nicht gestellt hat. Der Gegner stand nur 5 Meter entfernt und blockt den Ball. Entscheidung?", "options": ["Freistoß wiederholen und Mauer stellen", "Weiterspielen, bei schneller Ausführung wird kein Abstand verlangt", "Indirekter Freistoß für die gegnerische Mannschaft"], "answer": 1 },
+    { "id": 32, "q": "Ein Angreifer wird vom Torwart außerhalb des Strafraums gefoult. Der Angreifer war allein auf dem Weg zum Tor. Wie wird der Torwart bestraft?", "options": ["Verwarnung (Gelbe Karte)", "Feldverweis (Rote Karte)", "Gelb-Rote Karte"], "answer": 1 },
+    { "id": 33, "q": "Ein Spieler schießt den Ball aus dem eigenen Strafraum in Richtung Mittellinie. Ein Mitspieler, der sich in der gegnerischen Hälfte befindet und offensichtlich in Abseitsposition steht, läuft dem Ball entgegen, berührt ihn aber nicht. Ein anderer Mitspieler, der nicht im Abseits stand, nimmt den Ball an. Entscheidung?", "options": ["Weiterspielen", "Indirekter Freistoß wegen Abseits", "Es kommt darauf an, ob der im Abseits stehende Spieler einen Gegner beeinflusst hat"], "answer": 2 },
+    { "id": 34, "q": "Der Schiedsrichter pfeift für einen Abstoß. Der Torwart legt den Ball ab, und bevor er ihn tritt, schießt ein Angreifer den Ball ins Tor. Entscheidung?", "options": ["Tor", "Abstoß wiederholen", "Indirekter Freistoß für die verteidigende Mannschaft"], "answer": 1 },
+    { "id": 35, "q": "Bei einer Auswechslung verlässt der ausgewechselte Spieler das Spielfeld über die Seitenlinie. Der Einwechselspieler betritt das Spielfeld aber über die Mittellinie, nicht an der vorgesehenen Stelle. Entscheidung?", "options": ["Kein Vergehen, er darf überall eintreten", "Verwarnung wegen unerlaubten Betretens, aber Auswechslung gilt", "Auswechslung wird nicht genehmigt"], "answer": 0 },
+    { "id": 36, "q": "Beim Eckstoß steht der ausführende Spieler außerhalb des Spielfeldes. Er schießt den Ball direkt ins Tor. Entscheidung?", "options": ["Tor, der Ball muss beim Eckstoß nur im Viertelkreis liegen", "Eckstoß wiederholen", "Abstoß für die verteidigende Mannschaft"], "answer": 0 },
+    { "id": 37, "q": "Ein Spieler begeht ein Foul, das der Schiedsrichter mit einem Freistoß ahnden will. Bevor er pfeift, sieht er, dass die gefoulte Mannschaft in einer guten Angriffssituation ist. Entscheidung?", "options": ["Sofort pfeifen, ein Foul muss bestraft werden", "Vorteil gewähren und weiterspielen lassen", "Schiedsrichterball nach der nächsten Unterbrechung"], "answer": 1 },
+    { "id": 38, "q": "Der Torwart fängt einen Schuss und rollt den Ball auf den Boden, um ihn abzuschlagen. Bevor er schießt, grätscht ein Angreifer den Ball weg und schießt ins Tor. Der Ball war bereits auf dem Boden. Entscheidung?", "options": ["Tor", "Indirekter Freistoß – der Ball galt noch als vom Torwart kontrolliert", "Direkter Freistoß wegen Fouls am Torwart"], "answer": 0 },
+    { "id": 39, "q": "Ein Spieler zieht sich die Schienbeinschoner vor dem Einwurf aus. Entscheidung?", "options": ["Einwurf wird zugelassen, Schienbeinschoner werden nach der nächsten Spielunterbrechung korrigiert", "Der Spieler darf den Einwurf nicht ausführen, bis er die Schoner wieder angezogen hat", "Verwarnung wegen Regelverstoßes"], "answer": 0 },
+    { "id": 40, "q": "Ein Spieler, der gerade ausgewechselt wurde und sich noch auf dem Spielfeld befindet, tritt einem Gegenspieler gegen das Bein. Entscheidung?", "options": ["Direkter Freistoß und Rote Karte", "Verwarnung und Weiterspielen", "Indirekter Freistoß und Verwarnung"], "answer": 0 },
+    { "id": 41, "q": "Bei einem Zweikampf im Mittelfeld fallen beide Spieler zu Boden. Keiner begeht ein Foul. Der Ball springt zur Seitenlinie. Entscheidung?", "options": ["Weiterspielen", "Schiedsrichterball", "Freistoß für die Mannschaft, die zuletzt den Ball berührt hat"], "answer": 0 },
+    { "id": 42, "q": "Der Ball liegt auf der Seitenlinie. Ist der Ball im Spiel?", "options": ["Ja, der Ball muss die Linie vollständig überquert haben", "Nein, sobald der Ball die Linie berührt, ist er aus dem Spiel", "Ja, aber nur wenn ein Spieler ihn berührt"], "answer": 0 },
+    { "id": 43, "q": "Ein Spieler erzielt ein Tor, aber der Schiedsrichter-Assistent hebt die Fahne wegen Abseits. Der Schiedsrichter ist sich sicher, dass kein Abseits vorlag. Entscheidung?", "options": ["Tor, der Schiedsrichter hat die letzte Entscheidungsgewalt", "Kein Tor, die Entscheidung des Assistenten gilt", "Schiedsrichterball"], "answer": 0 },
+    { "id": 44, "q": "Ein Feldspieler tauscht ohne Erlaubnis des Schiedsrichters die Position mit dem Torwart. Der Schiedsrichter bemerkt es erst, als der neue Torwart den Ball mit den Händen im Strafraum aufnimmt. Entscheidung?", "options": ["Weiterspielen, Verwarnung für beide bei der nächsten Unterbrechung", "Indirekter Freistoß und Verwarnung für den Torwart", "Strafstoß"], "answer": 0 },
+    { "id": 45, "q": "Ein Spieler begeht ein verwarnungswürdiges Foulspiel. Gleichzeitig nutzt die gefoulte Mannschaft den Vorteil und erzielt ein Tor. Entscheidung?", "options": ["Tor anerkennen, Verwarnung bei der nächsten Spielunterbrechung aussprechen", "Tor aberkennen, Freistoß und Verwarnung", "Tor anerkennen, keine Verwarnung da Vorteil gewährt wurde"], "answer": 0 },
+    { "id": 46, "q": "Bei einem Gewitter schlägt ein Blitz in der Nähe des Spielfeldes ein. Entscheidung?", "options": ["Weiterspielen, solange kein Spieler in Gefahr ist", "Spiel sofort unterbrechen und Spieler in Sicherheit bringen", "Nur unterbrechen, wenn ein Spieler es verlangt"], "answer": 1 },
+    { "id": 47, "q": "Ein Spieler schießt aus 30 Metern aufs Tor. Ein Zuschauer wirft einen zweiten Ball aufs Spielfeld. Der Torwart wird irritiert und kann den Originalball nicht halten – Tor. Entscheidung?", "options": ["Tor, der Zuschauer ist kein Spielbeteiligter", "Kein Tor, Schiedsrichterball am Ort des Balles bei Unterbrechung", "Kein Tor, indirekter Freistoß für die verteidigende Mannschaft"], "answer": 1 },
+    { "id": 48, "q": "Ein Spieler führt einen Freistoß aus und spielt den Ball zu einem Mitspieler. Der Mitspieler passt sofort zurück, und der Freistoßschütze schießt ins Tor. Entscheidung?", "options": ["Tor", "Kein Tor, der Freistoßschütze darf den Ball nicht zweimal berühren", "Indirekter Freistoß gegen die angreifende Mannschaft"], "answer": 0 },
+    { "id": 49, "q": "Ein Teamoffizieller (Trainer) betritt das Spielfeld und verhindert einen Angriff, indem er den Ball wegschlägt. Entscheidung?", "options": ["Indirekter Freistoß und Verwarnung für den Trainer", "Direkter Freistoß (bzw. Strafstoß) am Ort des Vergehens und Rote Karte für den Trainer", "Schiedsrichterball und Platzverweis für den Trainer"], "answer": 1 },
+    { "id": 50, "q": "Der Torwart wirft den Ball weit nach vorne ab. Ein Angreifer steht bei der Ballabgabe in der eigenen Hälfte, hinter der Mittellinie. Er nimmt den Ball in der gegnerischen Hälfte an und ist allein vor dem Tor. Entscheidung?", "options": ["Abseits, da er den Ball in der gegnerischen Hälfte annimmt", "Weiterspielen, da er sich bei der Ballabgabe in der eigenen Hälfte befand", "Weiterspielen, beim Abwurf des Torwarts gibt es kein Abseits"], "answer": 2 }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "type": "warning",
+      "title": "Schiedsrichterkabine",
+      "content": "Bei allen Heimspielen ist ab sofort darauf zu achten, dass die Schiedsrichterkabine spätestens 30 Minuten vor Spielbeginn zugänglich ist.",
+      "date": "2026-09-01",
+      "archived": false
+    },
+    {
+      "id": 2,
+      "type": "info",
+      "title": "Spesenbeträge angepasst",
+      "content": "Die aktuellen Spesenbeträge wurden zum 01.07.2026 angepasst. Die neue Spesenordnung findet ihr unter Dokumente.",
+      "date": "2026-07-01",
+      "archived": false
+    }
+  ]
+}
