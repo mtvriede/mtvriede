@@ -6,7 +6,7 @@ let currentPage = 'home';
 let detailState = null;
 
 function loadData() {
-  return fetch('data/content.json')
+  return fetch('data/content.json?v=' + Date.now())
     .then(r => r.json())
     .then(d => { data = d; });
 }
